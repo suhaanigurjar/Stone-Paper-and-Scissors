@@ -1,5 +1,5 @@
 import random
-
+#import os
 
 # Constants for game choices
 ROCK = 1
@@ -46,6 +46,11 @@ def get_yes_no_input(prompt):
         else:
             print("Invalid input. Please enter 'Y' for Yes or 'N' for No.")
 
+#def clear_screen():
+# Use the os module to clear the screen
+# Clear the console (works for Windows, MacOS, and Linux)
+#os.system('cls' if os.name == 'nt' else 'clear')
+
 def get_mode():
     while True:
         mode = input("Choose mode: 1 - Player vs Computer, 2 - Player vs Player: ").strip()
@@ -72,7 +77,8 @@ def play_game():
 
         player1_choice = get_choice(player1_name)
 
-    
+        #if mode == '2':
+        #clear_screen()
 
         player2_choice = get_choice(player2_name) if mode == '2' else random.choice(CHOICES)
 
