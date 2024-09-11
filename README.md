@@ -18,10 +18,6 @@ A simple Python-based Rock-Paper-Scissors game that can be played in two modes:
 4. The winner will be displayed based on the game rules.
 5. Choose whether to play again or exit.
 
-## Requirements
-
-- Python 3.x
-
 ## License
 
 MIT License
