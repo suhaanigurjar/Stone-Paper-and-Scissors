@@ -21,3 +21,7 @@ A simple Python-based Rock-Paper-Scissors game that can be played in two modes:
 ## Requirements
 
 - Python 3.x
+
+## License
+
+MIT License
